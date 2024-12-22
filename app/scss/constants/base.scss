@@ -1,0 +1,31 @@
+html,
+body{
+  height: 100%;
+}
+
+body{
+  font-family: "Onest", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(16px, 0.902rem + 0.39vw, 18px);
+  line-height: 1.2;
+  color: var(--default-dark);
+  background-color: var(--default-light);
+  display: flex;
+  flex-direction: column;
+}
+
+.main{
+  flex-grow: 1;
+}
+
+// .container{
+//   max-width: 1450px;
+//   margin: 0 auto;
+//   padding: 0 15px;
+// }
+
+
+
+
+

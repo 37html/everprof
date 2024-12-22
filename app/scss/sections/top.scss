@@ -1,0 +1,64 @@
+.top{
+  background-image: url('./../images/orange-bg.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 110%;
+  &__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  &__info{
+    width: 50%;
+    margin-right: 120px;
+  }
+  &__title{
+    font-size: 67px;
+    font-weight: 300;
+    margin-bottom: 44px;
+  }
+  &__links{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+  }
+  &__link-left{
+    position: relative;
+    display: flex;
+    height: 240px;
+    width: 210px;
+    background-image: url('./../images/lines.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  &__link-img{
+    position: absolute;
+    bottom: -50px;
+  }
+  &__img{
+    height: 750px;
+    width: 610px;
+    object-fit: cover;
+  }
+  &__link-text{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--default-dark);
+    top: 30px;
+    left: 30px;
+    max-width: 86px;
+  }
+  &__link-right{
+    background-image: url('./../images/catalog-img.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 240px;
+    width: 100%;
+  }
+}
